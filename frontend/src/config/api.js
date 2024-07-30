@@ -1,5 +1,5 @@
 import axios from "axios";
-const DEPLOYED = "https://mern-store-gtph.onrender.com";
+const DEPLOYED = "https://mern-store-lu53.onrender.com";
 const LOCALHOST = "http://localhost:5454";
 
 export const API_BASE_URL = DEPLOYED;
