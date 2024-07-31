@@ -13,11 +13,11 @@ import { lengha_page1 } from "../../../../Data/Women/LenghaCholi";
 import { gounsPage1 } from "../../../../Data/Gouns/gouns";
 
 const product = {
-  name: "Basic Tee 6-Pack",
+  name: "Women-Clothing",
   price: "₹996",
   href: "#",
   breadcrumbs: [
-    { id: 1, name: "Men", href: "#" },
+    { id: 1, name: "Women", href: "#" },
     { id: 2, name: "Clothing", href: "#" },
   ],
   images: [
@@ -142,11 +142,11 @@ export default function ProductDetails() {
             <div className=" overflow-hidden rounded-lg max-w-[30rem] max-h-[35rem]">
               <img
                 src={activeImage?.src || customersProduct.product?.imageUrl}
-                alt={product.images[0].alt}
+                // alt={product.images[0].alt}
                 className="h-full w-full object-cover object-center"
               />
             </div>
-            <div className="flex flex-wrap space-x-5 justify-center">
+            {/* <div className="flex flex-wrap space-x-5 justify-center">
               {product.images.map((image) => (
                 <div
                   onClick={() => handleSetActiveImage(image)}
@@ -159,7 +159,7 @@ export default function ProductDetails() {
                   />
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Product info */}
