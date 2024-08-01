@@ -1,8 +1,8 @@
-# Social Media App
+# Mern Store
 
-This project is a full-stack social media web application 🌐 that has been developed using the MERN stack 🖥️ and Rest API 🚀, In this social media platform where you can share posts, like/unlike posts, Follow/Unfollow users and more.
+a full-stack web application built to revolutionize your online shopping experience! Powered by the MERN stack (MongoDB, Express.js, React, Node.js), Redux Toolkit for smooth state management, and the visually stunning Material UI, this project offers a seamless and feature-rich platform for both users and admins.
 
-Deployed link : https://social-media-app-cbw8.onrender.com
+Deployed link : https://mern-store-frontend-d5x8.onrender.com
 
 ## Notes App with MongoDB, Express, React & Nodejs (MERN).
 
@@ -17,29 +17,24 @@ Deployed link : https://social-media-app-cbw8.onrender.com
 
 ## Key Features
 
-- Register and Login users
-- Posts
-  - Create Post : Posts include text(caption) and image
-  - Delete Posts
-  - Like/Unlike Post
-  - Comment to a Post
-  - View all comments on a post
-- Realtime Messaging
-  - Dark and Light Mode
-  - Chat App With Image Support
-  - Seen/Unseen Status for Messages
-  - Notification sounds
-  - Search for Chat
-- user suggestions menu
-- Profile Pages
-  - Change profile picture
-  - Change Name, email , password
-  - Follow/Unfollow Users
-  - Freeze Your Account
-  - Add your own bio
-- profile page shows user details and posts with following and followers menu
-- password is stored in database in encrypted format with salt
-- Dark Mode Support in Chat Page
+- User Registration : Allows users to register as Customers.
+- Full-Featured Shopping Cart : Seamless shopping cart functionality for users to add, remove, and manage products.
+- Top Products Carousel: Display a carousel of top-rated or featured products.
+- Product Pagination : Navigate through products efficiently with pagination.
+- Product Search : offers a search functionality where customers can find products by
+  color, size, price, availability.
+- Product Search Feature : Easily search for products based on keywords.
+- User Profile with Orders : Users can create profiles and track their order.
+- Admin Dashboard : Comprehensive dashboard for administrators to manage products, and orders.
+- Admin Admin Management : Manage admin accounts.
+- Admin Product Management : Add, and delete products from the platform.
+- Admin Order Details Page : Access detailed information about each order.
+- Mark Orders as Delivered Option : Ability to update order status to Confirm, Shipped, delivered.
+- Cart System : Customers can add products to their cart for easy checkout.
+- Checkout Process : Seamless checkout with options for shipping and payment methods.
+- Shipping Options : Specify shipping area for product delivery
+- Saved Addresses - Save multiple shipping addresses
+- Integration: Secure payment processing through Razorpay.
 
 ## Technologies used
 
@@ -65,8 +60,10 @@ This project was created using the following technologies.
 - [Bcryptjs](https://www.npmjs.com/package/bcryptjs) - For data encryption
 - [concurrently](https://www.npmjs.com/package/concurrently) - allow coders to run multiple scripts with one command
 - [cloudinary](https://www.npmjs.com/package/cloudinary) - Cloudinary is an end-to-end image- and video-management solution for websites and mobile apps, covering everything from image and video uploads, storage, manipulations, optimizations to delivery
-- [cookie-parser](https://www.npmjs.com/package/cookie-parser) - The cookie-parser middleware simplifies the process of parsing and managing cookies in ExpressJS applications, providing developers with convenient access to client-side cookies for various purposes, including session management and security
-- [socket.io](https://www.npmjs.com/package/socket.io) - Socket.IO enables real-time bidirectional event-based communication
+- [razorpay] - Payment integration
+- [swagger-jsdoc](https://www.npmjs.com/package/swagger-jsdoc) - jsdoc enables you to integrate Swagger using JSDoc comments in your code
+- [swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express) - This module allows you to serve auto-generated swagger-ui generated API docs from express, based on a swagger. json file
+  razorpay -
 
 #### Database
 
@@ -77,102 +74,136 @@ This project was created using the following technologies.
 ### Setup .env file
 
 ```shell
-PORT=...
-MONGO_URI=...
-JWT_SECRET=...
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
+PORT = 5454
+MONGO_URI = ADD_YOUR_MONGO_URI_HERE
+SECERET_KEY = ADD_YOUR_JWT_SECRET_HERE
+apikey = ADD_YOUT_RAZORPAY_KEY_ID
+apisecret = ADD_YOUR_RAZORPAY_KEY_SECRET
 
 ```
 
 ### Installation
 
 ```shell
-Install dependencies for server
+Install dependencies for frontend
 npm install
 
-Install dependencies for client
-cd client
+Install dependencies for backend
 npm install
 
-Run the client & server with concurrently
+Run the frontend and backend with concurrently
 npm run dev
 
-Run the Express server only
-npm run server
+Run the Express backend only
+npm start
 
-Run the React client only
-npm run client
+Run the React frontend only
+npm start
 
-Server runs on http://localhost:5000 and client on http://localhost:3000
+Backend runs on http://localhost:5454 and frontend on http://localhost:3000
 ```
 
 ## Screenshots
 
+#### Register
+
+![1 register](https://github.com/user-attachments/assets/231a3663-44c5-4bec-a542-b3c258e5db8e)
+
+---
+
 #### Login
 
-![2  login](https://github.com/monika163/Social-Media-App/assets/61625011/a547effb-5bd8-43e6-a4d4-5f6528902edb)
+![2 login](https://github.com/user-attachments/assets/da7bdd99-1093-4d84-b309-6d78572f05c5)
 
 ---
 
-#### Sign Up
+#### Carousel
 
-![1  register](https://github.com/monika163/Social-Media-App/assets/61625011/ef683b40-3f2c-4a88-97af-c2787ae9243b)
-
----
-
-#### Home Page
-
-![3  home page](https://github.com/monika163/Social-Media-App/assets/61625011/76e8f702-b487-45fa-8611-ef0ebd3e4283)
+![3 Carousel](https://github.com/user-attachments/assets/1e52dd34-1a78-436d-b103-4c7639ec2927)
 
 ---
 
-#### Post
+#### Category
 
-![4  post](https://github.com/monika163/Social-Media-App/assets/61625011/991f5d71-7e90-4307-88cf-0e6479b6844b)
-
----
-
-#### Post Like, Comment
-
-![5  post like comment](https://github.com/monika163/Social-Media-App/assets/61625011/2c8fa9f9-4d62-4fb9-a911-da075e0d3b95)
+![4 category](https://github.com/user-attachments/assets/82449ac7-261c-4187-88c1-fe37b7ffbc89)
 
 ---
 
-#### Profile
+#### Product
 
-![6  profile](https://github.com/monika163/Social-Media-App/assets/61625011/c895b9ff-3398-4290-9e63-ae9709cea67f)
-
----
-
-#### Update Profile
-
-![7  update profile](https://github.com/monika163/Social-Media-App/assets/61625011/910f44d4-2a12-4dca-ac1e-06572694ed31)
+![5 product](https://github.com/user-attachments/assets/34a31b5c-476f-465c-b96b-3f3ecd45da72)
 
 ---
 
-#### 8. Search for Chats and Nothification
+#### Product Details
 
-![8  search for chats and nothification](https://github.com/monika163/Social-Media-App/assets/61625011/4b43b0a7-99ca-4a1b-a625-0519b7d0a75f)
-
----
-
-#### Chat
-
-![9  chat](https://github.com/monika163/Social-Media-App/assets/61625011/456c9304-70c7-4e62-b69e-8ef00266438f)
+![6 product-details](https://github.com/user-attachments/assets/0ec735b9-8d1b-4c41-a805-9c4e44d0a26f)
 
 ---
 
-#### Profile Follow
+#### Add to Cart
 
-![10  profile - follow ](https://github.com/monika163/Social-Media-App/assets/61625011/3409263c-5518-47d6-ad01-a90b5b74672a)
+![7 add to cart](https://github.com/user-attachments/assets/38d0083b-8ee5-441d-989f-f624a26162fd)
 
 ---
 
-#### Profile UnFollow
+#### Checkout
 
-![11  unfollow](https://github.com/monika163/Social-Media-App/assets/61625011/4a5a7448-856c-4588-b498-06548e80187a)
+![8 checkout](https://github.com/user-attachments/assets/849edbb6-a387-48a7-82bf-79b7962e2b69)
+
+---
+
+#### Delivery Address
+
+![9  delivery address](https://github.com/user-attachments/assets/173da7b6-39e2-42ba-921f-9e9dcdd3b84b)
+
+---
+
+#### Payment1
+
+![10 payment6](https://github.com/user-attachments/assets/514f542b-fb9b-45b6-8ae2-f992e24c8a1e)
+![10 payment7](https://github.com/user-attachments/assets/8bab21a2-683e-4abf-a12b-9e8e79bdc205)
+![10 payment3](https://github.com/user-attachments/assets/6741fbc5-dcbb-489d-a725-d30c3ab9f69f)
+![10  payment1](https://github.com/user-attachments/assets/fb143648-b56b-4ab5-abd8-9729c0c6357f)
+![10 payment2](https://github.com/user-attachments/assets/e88c7519-39cb-45ef-9fc1-d53d6bd9ec49)
+![10 payment4](https://github.com/user-attachments/assets/b85fa006-c136-42c8-bb17-70bfef57bff5)
+![10 payment5](https://github.com/user-attachments/assets/f9de63ed-2bd8-44ff-907a-45bc232d8647)
+
+---
+
+#### Order Confirmred
+
+![11 order-confirmred](https://github.com/user-attachments/assets/27a440a7-ef64-4101-a64e-7da9258cd858)
+
+---
+
+#### My Order
+
+![12  my order](https://github.com/user-attachments/assets/c1f005cf-9179-4c54-8f6e-33f5371f3cd4)
+
+---
+
+#### Order Status
+
+![13 order status](https://github.com/user-attachments/assets/072f8cd6-07cc-4c11-a195-1eb6c74e7874)
+
+---
+
+#### Admin Dashboard add Products
+
+![14  admin dashboard-add products](https://github.com/user-attachments/assets/a506ad94-ee7c-41fd-9181-7c06cb794da0)
+
+---
+
+#### 15. Admin Dashboard All Products
+
+![15  admin dashboard - All Products](https://github.com/user-attachments/assets/0b863717-6502-4935-bfbc-6cc6494cc307)
+
+---
+
+#### Admin Dashboard All Orders
+
+![16  admin dashboard - all orders](https://github.com/user-attachments/assets/40f85f36-ff8d-4142-acad-7344de60d9ee)
 
 ---
 
