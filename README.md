@@ -195,7 +195,7 @@ Backend runs on http://localhost:5454 and frontend on http://localhost:3000
 
 ---
 
-#### 15. Admin Dashboard All Products
+#### Admin Dashboard All Products
 
 ![15  admin dashboard - All Products](https://github.com/user-attachments/assets/0b863717-6502-4935-bfbc-6cc6494cc307)
 
