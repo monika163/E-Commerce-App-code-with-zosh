@@ -19,7 +19,7 @@ Deployed link : https://mern-store-frontend-d5x8.onrender.com
 
 - User Registration : Allows users to register as Customers.
 - Full-Featured Shopping Cart : Seamless shopping cart functionality for users to add, remove, and manage products.
-- Top Products Carousel: Display a carousel of top-rated or featured products.
+- Top Products Carousel : Display a carousel of top-rated or featured products.
 - Product Pagination : Navigate through products efficiently with pagination.
 - Product Search : offers a search functionality where customers can find products by
   color, size, price, availability.
@@ -33,7 +33,7 @@ Deployed link : https://mern-store-frontend-d5x8.onrender.com
 - Cart System : Customers can add products to their cart for easy checkout.
 - Checkout Process : Seamless checkout with options for shipping and payment methods.
 - Shipping Options : Specify shipping area for product delivery
-- Saved Addresses - Save multiple shipping addresses
+- Saved Addresses : Save multiple shipping addresses
 - Integration: Secure payment processing through Razorpay.
 
 ## Technologies used
