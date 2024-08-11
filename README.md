@@ -1,10 +1,10 @@
-# Mern Store
+# E-Commerce-Web-Application
 
 a full-stack web application built to revolutionize your online shopping experience! Powered by the MERN stack (MongoDB, Express.js, React, Node.js), Redux Toolkit for smooth state management, and the visually stunning Material UI, this project offers a seamless and feature-rich platform for both users and admins.
 
 Deployed link : https://mern-store-frontend-d5x8.onrender.com
 
-## MERN STORE E Commerce Web Application with MongoDB, Express, React & Nodejs (MERN).
+## E Commerce Web Application with MongoDB, Express, React & Nodejs (MERN).
 
 - [Key Features](#key-features)
 - [Technologies used](#technologies-used)
